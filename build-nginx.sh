@@ -83,3 +83,6 @@ acbuild --debug set-exec -- /usr/sbin/nginx -g "daemon off;"
 
 # Save the ACI
 acbuild --debug write --overwrite nginx-$NGINX_VERSION-linux-amd64.aci
+
+# End the build
+acbuild --debug end
